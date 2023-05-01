@@ -15,8 +15,6 @@
 		AE2010B729AD1490003C8C55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2010B629AD1490003C8C55 /* ContentView.swift */; };
 		AE2010B929AD1491003C8C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2010B829AD1491003C8C55 /* Assets.xcassets */; };
 		AE2010BC29AD1491003C8C55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2010BB29AD1491003C8C55 /* Preview Assets.xcassets */; };
-		AE2010C729AD22D2003C8C55 /* GestureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2010C629AD22D2003C8C55 /* GestureRow.swift */; };
-		AE2010C929AD22EF003C8C55 /* SingleLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2010C829AD22EF003C8C55 /* SingleLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +27,6 @@
 		AE2010B629AD1490003C8C55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE2010B829AD1491003C8C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2010BB29AD1491003C8C55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AE2010C629AD22D2003C8C55 /* GestureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GestureRow.swift; path = ../GestureRow.swift; sourceTree = "<group>"; };
-		AE2010C829AD22EF003C8C55 /* SingleLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingleLine.swift; path = ../SingleLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +59,12 @@
 		AE2010B329AD1490003C8C55 /* RecognizingGestures */ = {
 			isa = PBXGroup;
 			children = (
-				AE2010C629AD22D2003C8C55 /* GestureRow.swift */,
 				AE2010B429AD1490003C8C55 /* RecognizingGesturesApp.swift */,
 				AE2010B629AD1490003C8C55 /* ContentView.swift */,
 				ABD24D8729AD180B005108EC /* TapView.swift */,
 				ABD24D8929AD1AA1005108EC /* DragView.swift */,
 				ABD24D8B29AD1BE7005108EC /* RotateView.swift */,
 				ABD24D8D29AD1CE7005108EC /* LongPressView.swift */,
-				AE2010C829AD22EF003C8C55 /* SingleLine.swift */,
 				AE2010B829AD1491003C8C55 /* Assets.xcassets */,
 				AE2010BA29AD1491003C8C55 /* Preview Content */,
 			);
@@ -160,9 +154,7 @@
 				ABD24D8A29AD1AA1005108EC /* DragView.swift in Sources */,
 				ABD24D8829AD180B005108EC /* TapView.swift in Sources */,
 				ABD24D8E29AD1CE7005108EC /* LongPressView.swift in Sources */,
-				AE2010C929AD22EF003C8C55 /* SingleLine.swift in Sources */,
 				ABD24D8C29AD1BE7005108EC /* RotateView.swift in Sources */,
-				AE2010C729AD22D2003C8C55 /* GestureRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
